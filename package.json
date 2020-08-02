@@ -1,0 +1,12 @@
+{
+  "name": "fancy-react-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:oquirozm/fancy-react-functions.git",
+  "author": "Omar Quiroz <omar@pragmateam.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
