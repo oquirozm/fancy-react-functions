@@ -1,11 +1,11 @@
 import React from "react";
 
 function preloadImage(src) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     const img = document.createElement("img");
     img.onload = () => resolve(src);
     img.src = src;
-  })
+  });
 }
 
 function preloadableLazy(dynamicImport) {
@@ -22,3 +22,5 @@ function preloadableLazy(dynamicImport) {
   Comp.preload = load;
   return Comp;
 }
+
+export { preloadImage, preloadableLazy };
